@@ -1,0 +1,24 @@
+{
+  "name": "webcoin-regtest",
+  "version": "0.0.0",
+  "description": "Create a Webcoin SPV client that connects to a local Bitcoin regtest node.",
+  "main": "dist/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webcoin": "github:keppel/webcoin#add-params-option",
+    "webcoin-bitcoin-testnet": "1.1.2"
+  },
+  "devDependencies": {
+    "ava": "1.4.1",
+    "bitcoind": "github:nomic-io/node-bitcoind#use-correct-rpc-port",
+    "fs-extra": "8.0.1"
+  }
+}
