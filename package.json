@@ -2,7 +2,7 @@
   "name": "webcoin-regtest",
   "version": "0.0.0",
   "description": "Create a Webcoin SPV client that connects to a local Bitcoin regtest node.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
